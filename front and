@@ -1,0 +1,8 @@
+<?php
+	$tanggal1 = $_POST['tanggal1'];
+	$tanggal2 = $_POST['tanggal2'];
+	$tanggalawal = date('d-m-Y',strtotime($tanggal1)) ;
+	$tanggalakhir = date('d-m-Y',strtotime($tanggal2)) ;
+	echo 'tanggal1 = '.$tanggalawal;
+	echo ' tanggal2 = '.$tanggalakhir;
+?>
